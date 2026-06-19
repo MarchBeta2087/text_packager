@@ -210,6 +210,7 @@ python text_packager.py
 程序会对以下情况抛出明确的异常信息：
 
 | 错误情况 | 提示信息示例 |
+| -------- | ------------ |
 | `meta.json` 不存在 | `请在本目录添加 meta.json` |
 | `meta.json` 格式不是合法 JSON | `不符合 JSON 格式规范` |
 | 根对象缺少 `title` 或 `version_tag` | `请补充根对象 title 和 version_tag 字段` |
